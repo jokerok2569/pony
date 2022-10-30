@@ -1,0 +1,85 @@
+/*.content{
+	background: rgba(110, 110, 110, 0.3);
+	margin-top: 10px;
+	border-radius: 10px;
+}*/
+body{
+	font-family: Roboto;
+	padding: 20px;
+	background: #EEEEEE;
+}
+header{
+	background: #CCC3DA;
+	padding: 40px;
+	text-align: center;
+}
+.card-header{
+	background: #CCC3DA;
+	transition: 0.2s;
+}
+.card-date{
+	color: rgba(0, 0, 0, 0.5);
+}
+.card:hover .card-header{
+	transition: 0.2s;
+	background: rgba(0, 0, 0, 0.3);
+}
+.img{
+	background-color: #aaa;
+	padding: 20px;
+	background-size: cover;
+	background-position: center;
+}
+.fa{
+	width: 50px;
+	font-size: 30px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: black;
+}
+footer{
+	background-color: #CCC3DA;
+	text-align: center;
+	padding-top: 10px;
+}
+label{
+	position: absolute;
+	width: 45px;
+	height: 26px;
+	right: 20px;
+	top: 20px;
+	border: 2px solid;
+	border-radius: 20px;
+}
+label:before{
+	position: absolute;
+	content: "";
+	width: 20px;
+	height: 20px;
+	left: 1px;
+	top: 1px;
+	border-radius: 50%;
+	cursor: pointer;
+	background: black;
+	transition: 0.4s;
+}
+label.active:before{
+	left: 21px;
+	background: rgba(225, 225, 225, 0.8);
+	color: black;
+}
+body.night{
+	background: #20222c;
+	color: #fff;
+}
+.theme{
+	background: #2B2E3E;
+	border: none !important;
+}
+.card.theme:hover .card-header{
+	background: #A196B0;
+}
